@@ -1,0 +1,264 @@
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.damage img {
+  height: 60vh;
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.frontline img{
+  height: 60vh;
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.flanker img{
+  height: 60vh;
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.support img{
+  height: 60vh;
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.apollo img{
+  height: 60vh;
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.Bugatti img{
+  height: 60vh;
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+/*------------------------
+    Portfolio Section
+--------------------------*/
+.portfolio-section {
+  overflow: hidden;
+}
+
+.portfolio-filter {
+  list-style: none;
+}
+
+.portfolio-filter li {
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 30px;
+  padding-bottom: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.portfolio-filter li.mixitup-control-active {
+  color: #fff;
+}
+
+.portfolios-area .gallery-block {
+  padding: 0;
+}
+
+.gallery-block {
+  position: relative;
+}
+
+.portfolio-item {
+  display: block;
+  width: 100%;
+  /* height: 600px; */
+  height: 60vh;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolio-item .pi-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: transparent;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.portfolio-item .pi-inner h5 {
+  opacity: 0;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  bottom: 150px;
+  color: #fff;
+  letter-spacing: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.portfolio-item .pi-inner p{
+  opacity: 0;
+  font-size: 16px;
+  font-weight: 100;
+  position: absolute;
+  padding: 10px;
+  border-left: 3px solid #fff;
+  left: 50px;
+  bottom: 50px;
+  color: #fff;
+  letter-spacing: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; */
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.portfolio-item:hover .pi-inner {
+  background: rgba(0, 20, 24, 0.8);
+}
+
+.portfolio-item:hover .pi-inner h5 {
+  opacity: 1;
+  letter-spacing: 0;
+}
+
+.portfolio-item:hover .pi-inner p {
+  opacity: 1;
+  letter-spacing: 0;
+}
+
+
+
+.portfolio-intro {
+  display: block;
+}
+
+
+
+
+
+
+/* ===========================
+  Responsive
+==============================*/
+@media only screen and (max-width: 1448px) {
+  .home-2.container {
+    width: auto;
+  }
+}
+
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .portfolio-item {
+    height: 450px;
+  }
+}
+
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .body-pad {
+    padding: 0 30px;
+  }
+  .portfolio-item {
+    height: 350px;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+  .body-pad {
+    padding: 0 15px;
+  }
+  .main-menu {
+    position: absolute;
+    background: #efefef;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    top: 30px;
+    padding-top: 15px;
+    display: none;
+  }
+  .main-menu ul li a {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+  }
+  .main-menu ul li {
+    display: block;
+  }
+  .main-menu ul li:last-child a {
+    border-bottom: none;
+  }
+  .home-2 {
+    text-align: left;
+  }
+  .home-2 .main-menu {
+    top: 99px;
+  }
+  .nav-switch {
+    position: absolute;
+    right: 25px;
+    font-size: 30px;
+    color: #333;
+    top: 35px;
+    display: block;
+  }
+  .header-btn {
+    display: none;
+  }
+  .section-title {
+    font-size: 45px;
+  }
+  .portfolio-filter {
+    text-align: center;
+  }
+}
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+  .section-title {
+    font-size: 30px;
+  }
+}
