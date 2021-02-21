@@ -225,7 +225,6 @@ header .overlay {
     min-height: 700px;
 }
 
-
 .carro-izquierda img{
     height: 39vh;
     width: 100%;
@@ -499,12 +498,12 @@ footer .list-inline .list-inline-item:hover {
 }
 
 @media only screen and (max-width: 800px) {
-    .Androxus-Header{
+    header {
             width: 100%;
             height: auto;
-            background-size: 100% !important;
-            background-position: center center;
-            min-height: auto;
+            /* background-size: 100% !important;
+            background-position: center center; */
+            /* min-height: auto; */
     }
 }
 @media only screen and (max-width: 800px) {
@@ -516,13 +515,44 @@ footer .list-inline .list-inline-item:hover {
             min-height: auto;
     }
 }
+
 @media only screen and (max-width: 800px) {
-    header {
+    .Roles-Header{
             width: 100%;
             height: auto;
-            /* background-size: 100% !important;
-            background-position: center center; */
-            min-height: 25rem;
+            background-size: 100% !important;
+            background-position: center center;
+            min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .MasterTheBasic-Header{
+            width: 100%;
+            height: auto;
+            background-size: 100% !important;
+            background-position: center center;
+            min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .PlayLikeAPro-Header{
+            width: 100%;
+            height: auto;
+            background-size: 100% !important;
+            background-position: center center;
+            min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Androxus-Header{
+            width: 100%;
+            height: auto;
+            background-size: 100% !important;
+            background-position: center center;
+            min-height: auto;
     }
 }
 

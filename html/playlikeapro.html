@@ -84,7 +84,7 @@ END BANNER
     TWO PHOTOS
     ---------------
     --------------- -->
-    <section id="Sports">
+    <section class="sect-one">
         <section class=" container-fluid ">
             <section class="container mt-5">
                 <section class="row ">
@@ -102,9 +102,6 @@ END BANNER
                 </section>
             </section>
         </section>
-
-
-
     </section>
     <!-- ----------
     ---------------
@@ -118,7 +115,7 @@ END BANNER
     LEGENDS
     ---------------
     --------------- -->
-    <section id="team" class="bgLightBlue legends">
+    <section class="bgLightBlue sect-two">
         <section class="container">
             <section class="container mt-5">
                 <section class="row">
@@ -154,7 +151,7 @@ END BANNER
     SPONSORDS
     ---------------
     --------------- -->
-    <section id="OurStory">
+    <section class="sect-three">
         <section class="container">
             <section class="container mt-5">
                 <section class="row ">
@@ -188,7 +185,7 @@ END BANNER
     LEGENDS
     ---------------
     --------------- -->
-    <section id="team" class="bgLightBlue legends">
+    <section class="bgLightBlue sect-four">
         <section class="container">
             <section class="container mt-5">
                 <section class="row">
@@ -224,7 +221,7 @@ END BANNER
     SPONSORDS
     ---------------
     --------------- -->
-    <section id="OurStory">
+    <section class="sect-five">
         <section class="container">
             <section class="container mt-5">
                 <section class="row ">
@@ -258,7 +255,7 @@ END BANNER
     LEGENDS
     ---------------
     --------------- -->
-    <section id="team" class="bgLightBlue legends">
+    <section class="bgLightBlue sect-six">
         <section class="container">
             <section class="container mt-5">
                 <section class="row">
@@ -352,44 +349,43 @@ END BANNER
     <!-- scrips -->
     <script>
         window.sr = ScrollReveal();
-        sr.reveal('.navbar', {
-            duration: 2000,
-            origin: 'top'
-        });
-        sr.reveal('.right', {
-            duration: 2000,
-            origin: 'left',
-            distance: '300px'
-        });
-        sr.reveal('.divider', {
+        sr.reveal('.sect-one', {
             duration: 2000,
             origin: 'right',
-            distance: '300px'
+            distance: '70px',
+            delay: 0.4
         });
-        sr.reveal('.legends', {
-            duration: 1000,
-            origin: 'left',
-            distance: '90px',
-            delay: 0.5
+        sr.reveal('.sect-two', {
+            duration: 2000,
+            origin: 'top',
+            distance: '70px',
+            delay: 0.4
         });
-        sr.reveal('#Sports', {
+        sr.reveal('.sect-three', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '70px',
+            delay: 0.4
+        });
+        sr.reveal('.sect-four', {
             duration: 1000,
             origin: 'right',
+            distance: '70px',
+            delay: 0.4
+        });
+        sr.reveal('.sect-five', {
+            duration: 1000,
+            origin: 'left',
+            distance: '70px',
+            delay: 0.4
+        });
+        sr.reveal('.sect-six', {
+            duration: 1000,
+            origin: 'bottom',
             distance: '90px',
             delay: 0.5,
             viewFactor: 0.2
         });
-
-        //esto es smooth scrolling
-        // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        //     anchor.addEventListener('click', function (e) {
-        //         e.preventDefault();
-
-        //         document.querySelector(this.getAttribute('href')).scrollIntoView({
-        //             behavior: 'smooth'
-        //         });
-        //     });
-        // });
     </script>
 
     <!-- JavaScript, jQuery, Popper, Bootstrap -->

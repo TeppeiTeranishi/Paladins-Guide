@@ -76,7 +76,6 @@
         <section class="container">
         </section>
     </section>
-
     <section class="container-fluid">
         <section class="content-center mb-1">
             <h2>Find Your Role</h2>
@@ -96,7 +95,7 @@
     TWO PHOTOS
     ---------------
     --------------- -->
-    <section id="Sports">
+    <section class="sect-one">
         <section class=" container-fluid ">
             <section class="content-center">
                 <h2>Frontline</h2>
@@ -129,12 +128,11 @@
     LEGENDS
     ---------------
     --------------- -->
-    <section id="team" class="bgLightBlue legends">
+    <section class="bgLightBlue sect-two">
         <section class="container">
             <section class="content-center">
                 <h2>Damage</h2>
             </section>
-
             <section class="container mt-5">
                 <section class="row">
                     <section class="col-md-6">
@@ -163,12 +161,11 @@
     SPONSORDS
     ---------------
     --------------- -->
-    <section id="OurStory" >
+    <section class="sect-three">
         <section class="container">
             <section class="content-center">
                 <h2>Support</h2>
             </section>
-
             <section class="container mt-5">
                 <section class="row ">
                     <section class="col-md-6">
@@ -197,12 +194,11 @@
     LEGENDS
     ---------------
     --------------- -->
-    <section id="team" class="bgLightBlue legends">
+    <section class="bgLightBlue sect-four">
         <section class="container">
             <section class="content-center">
                 <h2>Flank</h2>
             </section>
-
             <section class="container mt-5">
                 <section class="row ">
                     <section class="col-md-6">
@@ -285,44 +281,38 @@
     <!-- scrips -->
     <script>
         window.sr = ScrollReveal();
-        sr.reveal('.navbar', {
+        sr.reveal('.sect-one', {
             duration: 2000,
-            origin: 'top'
+            origin: 'bottom',
+            distance: '70px',
+            delay: 0.4
         });
-        sr.reveal('.right', {
-            duration: 2000,
-            origin: 'left',
-            distance: '300px'
-        });
-        sr.reveal('.divider', {
+        sr.reveal('.sect-two', {
             duration: 2000,
             origin: 'right',
-            distance: '300px'
+            distance: '70px',
+            delay: 0.4
         });
-        sr.reveal('.legends', {
-            duration: 1000,
+        sr.reveal('.sect-three', {
+            duration: 2000,
             origin: 'left',
-            distance: '90px',
-            delay: 0.5
+            distance: '70px',
+            delay: 0.4
         });
-        sr.reveal('#Sports', {
+        sr.reveal('.sect-four', {
             duration: 1000,
-            origin: 'right',
+            origin: 'top',
+            distance: '70px',
+            delay: 0.4,
+            viewFactor: 0.2
+        });
+        /*sr.reveal('#none', {
+            duration: 1000,
+            origin: 'top',
             distance: '90px',
             delay: 0.5,
             viewFactor: 0.2
-        });
-
-        //esto es smooth scrolling
-        // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        //     anchor.addEventListener('click', function (e) {
-        //         e.preventDefault();
-
-        //         document.querySelector(this.getAttribute('href')).scrollIntoView({
-        //             behavior: 'smooth'
-        //         });
-        //     });
-        // });
+        });*/
     </script>
 
     <!-- JavaScript, jQuery, Popper, Bootstrap -->
