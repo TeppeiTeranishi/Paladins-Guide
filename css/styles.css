@@ -114,10 +114,6 @@ a:hover { text-decoration: none; }
     min-height: 100px;
 }
 
-#contact_us{
-    background-image: url(../imagenes/pattern.png);
-}
-
 .nav-link { color: var(--white-color); }
 .nav-link:hover { color: var(--gold-color); }
 
@@ -323,85 +319,6 @@ header .overlay {
 //////////////*/
 
 
-/* //////////////
-   CAROUSEL SPONSORDS
-//////////////*/
-.carousel {
-    min-height: 240px;
-    padding: 40px;
-    border-radius: 2px;
-    text-align: center;
-}
-
-.carousel-item p {
-    font-size: 26px;
-    font-weight: 400;
-    color: #1a1a1a;
-}
-
-.carousel-indicators li {
-    background-color: #1a1a1a;
-    width: 15px;
-    height: 15px;
-    border-radius: 2px;
-    margin: 0 8px;
-}
-
-.carousel-control-next, .carousel-control-prev { 
-    color: #1a1a1a;
-    opacity: 1;
-    width: 5%;
-}
-
-.control-button {
-    background-color: #1a1a1a;
-    opacity: 1;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    border: 1px solid #1a1a1a;
-    border-radius: 50px;
-    font-size: 20px;
-}
-
-.carousel-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.OurStory-user {
-    max-width: 240px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.OurStory-user h6 {
-    margin-bottom: 0px;
-}
-
-.OurStory-user span {
-    font-size: 12px;
-}
-
-.OurStory-user img {
-    border-radius: 50%;
-    max-width: 50px;
-    text-align: center;
-}
-
-.rating i {
-    color: goldenrod;
-    font-size: 26px;
-}
-/* //////////////
-   END CAROUSEL SPONSORDS
-//////////////*/
-
-.jumbotron{
-    position: relative;
-    overflow: hidden;
-    margin: 100px 0;
-}
 
 
 
@@ -444,20 +361,17 @@ header .overlay {
 footer {
     padding: 50px 0;
     text-align: center;
-    color: white;
+    color: #fff;
     background: #30475E;
 }
 
 
 footer a {
-    color: white;
+    color: #fff;
 }
 
 footer a:hover {
     color: #C0C0C0;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
 }
 
 footer .list-inline .list-inline-item {
@@ -466,9 +380,6 @@ footer .list-inline .list-inline-item {
 
 footer .list-inline .list-inline-item:hover {
     padding: 10px 15px;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
 }
 /* //////////////
    End Footer
