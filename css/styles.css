@@ -199,18 +199,14 @@ header .overlay {
 
 
 
-#ferrari-laferrari {
-    background-image: url(../imagenes/ferrari-laferrari.jpg);
+.Roles-Header {
+    background-image: url(../imagenes/paladinsroles.jpg);
     background-position: center center;
     background-size: cover;
-    padding-top: 110px;
+    padding-top: 200px;
     min-height: 700px;
-    color: var(--white-color);
 }
 
-#ferrari-laferrari p {
-    color: var(--white-color);
-}
 
 .Androxus-Header {
     background-image: url(../imagenes/paladinschamps.png);
