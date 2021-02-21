@@ -22,6 +22,9 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../imagenes/paladins.svg" type="image/x-icon">
 
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- OWN STYLE -->
     <link rel="stylesheet" href="../css/styles.css">
 
@@ -707,6 +710,49 @@
             <i class="fas fa-chevron-up"></i>
         </section>
     </section>
+
+    <!-- scrips -->
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'top'
+        });
+        sr.reveal('.right', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        });
+        sr.reveal('.divider', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        sr.reveal('.legends', {
+            duration: 1000,
+            origin: 'left',
+            distance: '90px',
+            delay: 0.5
+        });
+        sr.reveal('#Sports', {
+            duration: 1000,
+            origin: 'right',
+            distance: '90px',
+            delay: 0.5,
+            viewFactor: 0.2
+        });
+
+        //esto es smooth scrolling
+        // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        //     anchor.addEventListener('click', function (e) {
+        //         e.preventDefault();
+
+        //         document.querySelector(this.getAttribute('href')).scrollIntoView({
+        //             behavior: 'smooth'
+        //         });
+        //     });
+        // });
+    </script>
 
     <!-- JavaScript, jQuery, Popper, Bootstrap -->
     <script src="../js/jquery.js"></script>

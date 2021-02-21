@@ -214,6 +214,13 @@ header .overlay {
     padding-top: 200px;
     min-height: 700px;
 }
+.PlayLikeAPro-Header{
+    background-image: url(../imagenes/paladinsplaylikeapro.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    min-height: 700px;
+}
 .Androxus-Header {
     background-image: url(../imagenes/paladinschamps.png);
     background-position: center center;
