@@ -17,6 +17,7 @@
 
 html {
     scroll-behavior: smooth;
+    min-height: 100%;
 }
 
 body {
@@ -32,12 +33,11 @@ body {
 .bgLight { background-color: var(--white-color); }
 .bgLightBlue { background-color: var(--light-blue-color); }
 .bgDarkBlue{ background-color: var(--dark-blue-color); }
-
 .colorDark { color: var(--dark-color) !important; }
 
 h1 { font-size: 66px; font-weight: 700; line-height: 80px; color: #fff; }
 h2 { font-size: 48px; margin-bottom: 30px; color: #fff; }
-h3 { font-size: 33px; color: #fff; }
+h3 { font-size: 48px; color: #fff; }
 h5 { margin-bottom: 0px; color: #fff; }
 
 p {
@@ -94,19 +94,6 @@ a:hover { text-decoration: none; }
     width: 100%;
 }
 
-.form-control {
-    font-size: 14px;
-    border: 1px solid #cacaca;
-    padding: 15px;
-    border-radius: 2px;
-}
-
-.form-control:focus {
-    border: 1px solid var(--dark-color);
-    outline: none;
-    box-shadow: none;
-}
-
 
 .navbar {
     background-color: rgba(0,0,0,.5);
@@ -115,7 +102,7 @@ a:hover { text-decoration: none; }
 }
 
 .nav-link { color: var(--white-color); }
-.nav-link:hover { color: var(--gold-color); }
+.nav-link:hover { color: #C0C0C0; }
 
 .navbar-toggler { font-size: 40px; }
 .navbar-toggler:focus { outline: none; }
@@ -128,7 +115,7 @@ a {
 }
 
 a:hover{
-    color: var(--gold-color);
+    color: #C0C0C0;
 }
 
 ion-icon:hover{
@@ -196,7 +183,7 @@ header .overlay {
 
 
 .Roles-Header {
-    background-image: url(../imagenes/paladinsroles.jpg);
+    background-image: url(../imagenes/maeve.jpg);
     background-position: center center;
     background-size: cover;
     padding-top: 200px;
@@ -211,7 +198,7 @@ header .overlay {
     min-height: 700px;
 }
 .PlayLikeAPro-Header{
-    background-image: url(../imagenes/paladinsplaylikeapro.jpg);
+    background-image: url(../imagenes/inarabanner.jpg);
     background-position: center center;
     background-size: cover;
     padding-top: 200px;
@@ -390,60 +377,31 @@ footer .list-inline .list-inline-item:hover {
 /* //////////////
    GO TOP
 //////////////*/
-.go-top-container{
+/* estilos del boton subir */
+.boton-subir {
+    display: none;
+    background: #a4ffff;
+    border: thin solid #003d68;
+    border-radius: 3px;
     position: fixed;
-    bottom: 1px;
-    right: 1px;
-    width: 6.6rem;
-    height: 7.6rem;
-    z-index: -1;
+    right: 15px;
+    bottom: 2px;
+    z-index: 999999999;
 }
-
-.go-top-button{
-    width: 0px;
-    height: 0px;
-    background: rgba(0,0,0,.6);
-    border-radius: 10%;
-    cursor: pointer;
-    transition: .2s;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
+/* evento hover */
+.boton-subir:hover {
+    box-shadow: 0px 2px 10px 0px rgba(255,255,255, 0.9);
 }
-
-.go-top-button i{
-    position: absolute;
-    font-size: 1.7rem;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: #fff;
-    transition: .2s;
+/* estilos para el tag i */
+.boton-subir i {
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 1.5em;
+    padding: 10px 10px 10px 7px;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
-
-.go-top-button:hover {
-    background: black;
-}
-
-.go-top-container:hover i{
-    color: rgb(46,54,69);
-}
-
-.show{
-    z-index: 11;
-}
-
-.show .go-top-button{
-    animation: popup .3s ease-in-out;
-    width: 2.6rem;
-    height: 2.6rem;
-    z-index: -1;
-}
-
-.show i{
-    transform: translate(-50%, -50%) scale(1);
-}
+/* fin de los estilos del boton subir  */
 /* //////////////
    END GO TOP
 //////////////*/

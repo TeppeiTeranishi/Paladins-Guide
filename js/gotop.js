@@ -1,14 +1,15 @@
-window.onscroll = function(){
-    if(document.documentElement.scrollTop > 100){
-        document.querySelector('.go-top-container').classList.add('show');
+$(window).scroll(function () { 
+    if ($(this).scrollTop() > 300) {
+        $("#js_up").slideDown(300);
     }else{
-        document.querySelector('.go-top-container').classList.remove('show');
+        $("#js_up").slideUp(300);
     }
-}
+});
 
-document.querySelector('.go-top-container').addEventListener('click', () =>{
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
+$("#js_up i").on('click', function (e) {  
+    e.preventDefault();
+    $("body,html").animate({
+        scrollTop: 0,
+    }, 50);
+    return false;
 });
