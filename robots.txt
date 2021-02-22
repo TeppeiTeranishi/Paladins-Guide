@@ -1,4 +1,11 @@
-User-agent: *
-Allow: /
-Allow: /sitemap.htm
-Sitemap: https://paladinsguide.netlify.app/sitemap.xml
+user-agent: *
+disallow: /multimedia/
+user-agent: *
+disallow: /imagenes/
+user-agent: *
+disallow: /js/
+user-agent: *
+disallow: /css/
+user-agent: *
+disallow: /documentos/
+sitemap: https://paladinsguide.netlify.app/sitemap.xml
