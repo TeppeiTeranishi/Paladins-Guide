@@ -183,7 +183,7 @@ header .overlay {
 
 
 .Roles-Header {
-    background-image: url(../imagenes/maeve.jpg);
+    background-image: url(../imagenes/maeve.webp);
     background-position: center center;
     background-size: cover;
     padding-top: 200px;
@@ -191,21 +191,21 @@ header .overlay {
 }
 
 .MasterTheBasic-Header{
-    background-image: url(../imagenes/paladinsmasterthebasics.jpg);
+    background-image: url(../imagenes/paladinsmasterthebasics.webp);
     background-position: center center;
     background-size: cover;
     padding-top: 200px;
     min-height: 700px;
 }
 .PlayLikeAPro-Header{
-    background-image: url(../imagenes/inarabanner.jpg);
+    background-image: url(../imagenes/inarabanner.webp);
     background-position: center center;
     background-size: cover;
     padding-top: 200px;
     min-height: 700px;
 }
 .Androxus-Header {
-    background-image: url(../imagenes/paladinschamps.png);
+    background-image: url(../imagenes/paladinschamps.webp);
     background-position: center center;
     background-size: cover;
     padding-top: 200px;
