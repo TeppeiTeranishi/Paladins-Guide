@@ -21,7 +21,9 @@ html {
 }
 
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
     margin: 0px;
     padding: 0px;
     font-size: 16px;
@@ -99,6 +101,7 @@ a:hover { text-decoration: none; }
     background-color: rgba(0,0,0,.5);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
     min-height: 100px;
+    font-size: 18px;
 }
 
 .nav-link { color: var(--white-color); }
