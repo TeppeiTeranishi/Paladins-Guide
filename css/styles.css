@@ -141,8 +141,8 @@ header {
     position: relative;
     background-color: black;
     margin-top: 100px;
-    height: 95vh;
-    min-height: 25rem;
+    height: 827px;
+    min-height: 400px;
     width: 100%;
     overflow: hidden;
 }
@@ -192,7 +192,8 @@ header .overlay {
     background-image: url(../imagenes/maeve.webp);
     background-position: center center;
     background-size: cover;
-    padding-top: 200px;
+    margin-top: 100px;
+    /* padding-top: 200px; */
     min-height: 700px;
 }
 
@@ -200,21 +201,24 @@ header .overlay {
     background-image: url(../imagenes/paladinsmasterthebasics.webp);
     background-position: center center;
     background-size: cover;
-    padding-top: 200px;
+    margin-top: 100px;
+    /* padding-top: 200px; */
     min-height: 700px;
 }
 .PlayLikeAPro-Header{
     background-image: url(../imagenes/inarabanner.webp);
     background-position: center center;
     background-size: cover;
-    padding-top: 200px;
+    margin-top: 100px;
+    /* padding-top: 200px; */
     min-height: 700px;
 }
 .Androxus-Header {
     background-image: url(../imagenes/paladinschamps.webp);
     background-position: center center;
     background-size: cover;
-    padding-top: 200px;
+    margin-top: 100px;
+    /* padding-top: 200px; */
     min-height: 700px;
 }
 
@@ -398,14 +402,10 @@ footer .list-inline .list-inline-item:hover {
 .boton-subir:hover {
     box-shadow: 0px 2px 10px 0px rgba(255,255,255, 0.9);
 }
-/* estilos para el tag i */
-.boton-subir i {
-    color: rgba(0, 0, 0, 0.95);
-    font-size: 1.5em;
-    padding: 10px 10px 10px 7px;
-    transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+
+.boton-subir img {
+    width: 45px;
+    height: 45px;
 }
 /* fin de los estilos del boton subir  */
 /* //////////////
