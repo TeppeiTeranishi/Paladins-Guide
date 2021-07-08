@@ -4,6 +4,7 @@
 :root {
     --dark-color: #1a1a1a;
     --white-color: #ffffff;
+    --gothic-color: #7297a8;
     --light-blue-color: #175362;
     --gold-color: #E8D051;
     --dark-blue-color: #081519;
@@ -31,6 +32,7 @@ body {
 
 .bgDark { background-color: var(--dark-color); }
 .bgLight { background-color: var(--white-color); }
+.bgGothic { background-color: var(--gothic-color); }
 .bgLightBlue { background-color: var(--light-blue-color); }
 .bgDarkBlue{ background-color: var(--dark-blue-color); }
 .colorDark { color: var(--dark-color) !important; }
@@ -96,20 +98,22 @@ a:hover { text-decoration: none; }
 
 
 .navbar {
+    /* background-color: rgba(0,0,0,.5); */
     background-color: rgba(0,0,0,.5);
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.05); */
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
     min-height: 100px;
     font-size: 18px;
 }
 
-.nav-link { color: var(--white-color); }
+.nav-link { color: var(--gothic-color); }
 .nav-link:hover { color: #C0C0C0; }
 
 .navbar-toggler { font-size: 40px; }
 .navbar-toggler:focus { outline: none; }
 
 a {
-    color: var(--white-color);
+    color: #7297a8;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -136,6 +140,7 @@ ion-icon:hover{
 header {
     position: relative;
     background-color: black;
+    margin-top: 100px;
     height: 95vh;
     min-height: 25rem;
     width: 100%;
@@ -348,13 +353,13 @@ header .overlay {
 footer {
     padding: 50px 0;
     text-align: center;
-    color: #fff;
+    color: #7297a8;
     background: #30475E;
 }
 
 
 footer a {
-    color: #fff;
+    color: #7297a8;
 }
 
 footer a:hover {
