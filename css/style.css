@@ -44,27 +44,6 @@
   margin-bottom: 30px;
 }
 
-.apollo img{
-  height: 60vh;
-  display: block;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.Bugatti img{
-  height: 60vh;
-  display: block;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-
 /*------------------------
     Portfolio Section
 --------------------------*/
@@ -145,7 +124,7 @@
   color: #fff;
   letter-spacing: 10px;
   background-color: rgba(0, 0, 0, 0.3);
-  /* display: flex;
+  /*display: flex;
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline; */
@@ -169,21 +148,11 @@
 }
 
 
-
-.portfolio-intro {
-  display: block;
-}
-
-
-
-
-
-
 /* ===========================
   Responsive
 ==============================*/
 @media only screen and (max-width: 1448px) {
-  .home-2.container {
+  .container {
     width: auto;
   }
 }
@@ -197,9 +166,6 @@
 
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .body-pad {
-    padding: 0 30px;
-  }
   .portfolio-item {
     height: 350px;
   }
@@ -207,50 +173,6 @@
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
-  .body-pad {
-    padding: 0 15px;
-  }
-  .main-menu {
-    position: absolute;
-    background: #efefef;
-    width: 100%;
-    z-index: 999;
-    left: 0;
-    top: 30px;
-    padding-top: 15px;
-    display: none;
-  }
-  .main-menu ul li a {
-    padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
-    display: block;
-  }
-  .main-menu ul li {
-    display: block;
-  }
-  .main-menu ul li:last-child a {
-    border-bottom: none;
-  }
-  .home-2 {
-    text-align: left;
-  }
-  .home-2 .main-menu {
-    top: 99px;
-  }
-  .nav-switch {
-    position: absolute;
-    right: 25px;
-    font-size: 30px;
-    color: #333;
-    top: 35px;
-    display: block;
-  }
-  .header-btn {
-    display: none;
-  }
-  .section-title {
-    font-size: 45px;
-  }
   .portfolio-filter {
     text-align: center;
   }
@@ -258,7 +180,4 @@
 
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
-  .section-title {
-    font-size: 30px;
-  }
 }
