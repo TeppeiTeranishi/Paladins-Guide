@@ -90,7 +90,21 @@ a:hover{
     color: #C0C0C0;
 }
 
+.navbar-toggler {
+    font-size: 14px;
+}
 
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(164, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(164, 255, 255, 1);
+} 
 /* //////////////
    END GENERAL
 //////////////*/
@@ -305,9 +319,6 @@ footer small{
     header {
             width: 100%;
             height: auto;
-            /* background-size: 100% !important;
-            background-position: center center; */
-            /* min-height: auto; */
     }
 }
 @media only screen and (max-width: 800px) {
@@ -332,6 +343,12 @@ footer small{
         background-position: center center;
         min-height: 180px;
     }
+    .navbar-brand{
+        margin: 0px 75px 0px 0px;
+    }
+    .navbar-toggler {
+        font-size: 14px;
+    }
 }
 
 
@@ -345,6 +362,9 @@ footer small{
         background-size: 100% !important;
         background-position: center center;
         min-height: 202px;
+    }
+    .navbar-brand{
+        margin: 0px 100px 0px 0px;
     }
 }
 
@@ -372,6 +392,9 @@ footer small{
         background-position: center center;
         min-height: 230px;
     }
+    .navbar-brand{
+        margin: 0px 180px 0px 0px;
+    }
 }
 
 @media only screen and (min-width: 412px) and (max-width: 732px){
@@ -385,6 +408,9 @@ footer small{
         background-position: center center;
         min-height: 230px;
     }
+    .navbar-brand{
+        margin: 0px 150px 0px 0px;
+    }
 }
 
 @media only screen and (min-width: 414px) and (max-width: 767px){
@@ -397,6 +423,9 @@ footer small{
         background-size: 100% !important;
         background-position: center center;
         min-height: 230px;
+    }
+    .navbar-brand{
+        margin: 0px 150px 0px 0px;
     }
 }
 
@@ -423,6 +452,9 @@ footer small{
         background-size: 100% !important;
         background-position: center center;
         min-height: 335px;
+    }
+    .navbar-brand{
+        margin: 0px 290px 0px 0px;
     }
 } 
 
@@ -474,31 +506,6 @@ footer small{
 }
 
 
-/* @media screen and (min-width: 800px) and (max-width: 1280px) and (orientation:portrait) {
-    html {
-        font-size: 16px;
-    }
-    header {
-        width: 100%;
-        height: 470px;
-    }
-    header video{
-        width: 100%;
-        height: auto;
-        background-size: 100% !important;
-        background-position: center center;
-        min-height: auto;
-    }
-    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
-        width: 100%;
-        height: 100%;
-        background-size: 100% !important;
-        background-position: center;
-        min-height: 430px;
-    }
-} */
-
-
 /* iPad Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
@@ -508,18 +515,18 @@ footer small{
         background-position: center;
         min-height: 430px;
     }
+    .navbar-brand{
+        margin: 0px 450px 0px 0px;
+    }
 }
 
-@media screen and (min-device-width: 834px) and (max-device-width: 1024px) and (orientation:portrait) {
+@media only screen and (min-device-width: 834px) and (max-device-width: 1024px) and (orientation:portrait) {
     html {
         font-size: 16px;
     }
     header {
         width: 100%;
         height: 470px;
-        /* background-size: 100% !important;
-        background-position: center center; */
-        /* min-height: auto; */
     }
     header video{
         width: 100%;
@@ -537,16 +544,13 @@ footer small{
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:portrait) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:portrait) {
     html {
         font-size: 16px;
     }
     header {
         width: 100%;
         height: 575px;
-        /* background-size: 100% !important;
-        background-position: center center; */
-        /* min-height: auto; */
     }
     header video{
         width: 100%;
@@ -568,6 +572,9 @@ footer small{
         background-size: 100% !important;
         background-position: center;
         min-height: 575px;
+    }
+    .navbar-brand{
+        margin: 0px 90px 0px 0px;
     }
 }
 
