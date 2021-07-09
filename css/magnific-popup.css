@@ -21,6 +21,7 @@
     position: fixed;
     outline: none !important;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .mfp-container {

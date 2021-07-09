@@ -320,60 +320,256 @@ footer small{
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .Roles-Header{
-            width: 100%;
-            height: auto;
-            background-size: 100% !important;
-            background-position: center center;
-            min-height: auto;
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 180px;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .MasterTheBasic-Header{
-            width: 100%;
-            height: auto;
-            background-size: 100% !important;
-            background-position: center center;
-            min-height: auto;
+
+@media only screen and (min-width: 360px) and (max-width: 480px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 202px;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .PlayLikeAPro-Header{
-            width: 100%;
-            height: auto;
-            background-size: 100% !important;
-            background-position: center center;
-            min-height: auto;
+@media only screen and (min-width: 384px) and (max-width: 640px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 215px;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .Androxus-Header{
-            width: 100%;
-            height: auto;
-            background-size: 100% !important;
-            background-position: center center;
-            min-height: auto;
+@media only screen and (min-width: 411px) and (max-width: 731px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 230px;
     }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) { }
-
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media only screen and (min-width: 412px) and (max-width: 732px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 230px;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) { }
+@media only screen and (min-width: 414px) and (max-width: 767px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 230px;
+    }
+}
 
-@media (min-width: 1200px) { }
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 271px;
+    }
+} 
+
+@media only screen and (min-width: 600px) and (max-width: 960px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 335px;
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 200px;
+        max-width: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    html {
+        font-size: 16px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 575px;
+    } 
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 579px;
+    } 
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1281px){
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: 720px;
+    }
+}
 
 
+/* @media screen and (min-width: 800px) and (max-width: 1280px) and (orientation:portrait) {
+    html {
+        font-size: 16px;
+    }
+    header {
+        width: 100%;
+        height: 470px;
+    }
+    header video{
+        width: 100%;
+        height: auto;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: auto;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center;
+        min-height: 430px;
+    }
+} */
 
 
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center;
+        min-height: 430px;
+    }
+}
 
+@media screen and (min-device-width: 834px) and (max-device-width: 1024px) and (orientation:portrait) {
+    html {
+        font-size: 16px;
+    }
+    header {
+        width: 100%;
+        height: 470px;
+        /* background-size: 100% !important;
+        background-position: center center; */
+        /* min-height: auto; */
+    }
+    header video{
+        width: 100%;
+        height: auto;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: auto;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center;
+        min-height: 470px;
+    }
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:portrait) {
+    html {
+        font-size: 16px;
+    }
+    header {
+        width: 100%;
+        height: 575px;
+        /* background-size: 100% !important;
+        background-position: center center; */
+        /* min-height: auto; */
+    }
+    header video{
+        width: 100%;
+        height: auto;
+        background-size: 100% !important;
+        background-position: center center;
+        min-height: auto;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center;
+        min-height: 430px;
+    }
+    .Roles-Header, .MasterTheBasic-Header, .PlayLikeAPro-Header, .Androxus-Header{
+        width: 100%;
+        height: 100%;
+        background-size: 100% !important;
+        background-position: center;
+        min-height: 575px;
+    }
+}
 
 
 
