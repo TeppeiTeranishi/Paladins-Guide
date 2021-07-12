@@ -343,7 +343,7 @@ footer small{
         background-position: center center;
         min-height: 180px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 75px 0px 0px;
     }
     .navbar-toggler {
@@ -363,7 +363,7 @@ footer small{
         background-position: center center;
         min-height: 202px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 100px 0px 0px;
     }
 }
@@ -392,7 +392,7 @@ footer small{
         background-position: center center;
         min-height: 230px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 180px 0px 0px;
     }
 }
@@ -408,7 +408,7 @@ footer small{
         background-position: center center;
         min-height: 230px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 150px 0px 0px;
     }
 }
@@ -424,7 +424,7 @@ footer small{
         background-position: center center;
         min-height: 230px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 150px 0px 0px;
     }
 }
@@ -453,7 +453,7 @@ footer small{
         background-position: center center;
         min-height: 335px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 290px 0px 0px;
     }
 } 
@@ -515,7 +515,7 @@ footer small{
         background-position: center;
         min-height: 430px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 450px 0px 0px;
     }
 }
@@ -573,7 +573,7 @@ footer small{
         background-position: center;
         min-height: 575px;
     }
-    .navbar-brand{
+    .logo-brand-top{
         margin: 0px 90px 0px 0px;
     }
 }
